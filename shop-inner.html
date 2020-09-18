@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="UTF-8" />
+    <title>Barbershop</title>
+    <!-- Font-awesome -->
+    <script src="js/all.js"></script>
+    <!-- /Fonts -->
+    <!-- Bootstrap LOCAL-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Main styles -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- header-burger-background -->
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="header__wrapper">
+              <div class="header__logo">
+                <a href="index.html">
+                  <img src="img/logo.png" alt="logo" />
+                </a>
+              </div>
+              <div class="header-burger__wrapper d-flex">
+                <div class="header__burger header-burger">
+                  <span class="header-burger__lines"></span>
+                </div>
+              </div>
+              <nav
+                class="header__nav header-nav justify-content-between d-flex"
+              >
+                <ul class="header-nav__list d-flex header-nav-list--shop">
+                  <li>
+                    <a href="index.html" class="another__logo"
+                      ><img src="img/logo.png" alt="logo"
+                    /></a>
+                  </li>
+                  <li><a href="index.html">Информация</a></li>
+                  <li><a href="index.html">Новости</a></li>
+                  <li><a href="price-list.html">Прайс-лист</a></li>
+                  <li id="id-location"><a href="shop.html">Магазин</a></li>
+                  <li><a href="#footer">Контакты</a></li>
+                </ul>
+                <div class="header-sign d-flex">
+                  <div class="header-sign-in">
+                    <a href="#">Вход</a>
+                    <i class="fas fa-sign-in-alt"></i>
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- /Header -->
+    <!-- Основное содержимое -->
+    <main class="shop">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h2 class="shop__title tt-u">Средства для ухода</h2>
+            <!-- Хлебные крошки -->
+            <div class="shop__breadcrumps shop-bread d-flex">
+              <div
+                class="shop-bread__main shop-bread--margin shop-break--markup tt-u"
+              >
+                <a href="index.html" class="shop-inner-fz">Главная</a>
+              </div>
+              <div
+                class="shop-bread__shop shop-bread--margin shop-break--markup tt-u"
+              >
+                <a href="shop.html" class="shop-inner-fz">Магазин</a>
+              </div>
+              <div
+                class="shop-bread__shop shop-bread--margin shop-break--markup tt-u"
+              >
+                <a href="shop.html" class="shop-inner-fz">Средства для ухода</a>
+              </div>
+              <div
+                class="shop-bread__shop shop-bread--margin tt-u shop-break--color"
+              >
+                <div class="shop-inner-fz">
+                  набор для путешествий «Baxter of California»
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="shop__inner shop-inner d-flex">
+                  <!-- Большое изображение -->
+                  <div class="shop-inner__img">
+                    <img src="img/catalog-item--big.jpg" alt="img" />
+                  </div>
+                  <!-- Маленькие изображения -->
+                  <div class="shop-inner__smaller shop-inner-smaller d-flex">
+                    <div class="shop-inner-smaller__img">
+                      <img src="img/catalog-item--small01.jpg" alt="img" />
+                    </div>
+                    <div class="shop-inner-smaller__img">
+                      <img src="img/catalog-item--small02.jpg" alt="img" />
+                    </div>
+                    <div class="shop-inner-smaller__img">
+                      <img src="img/catalog-item--small03.jpg" alt="img" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="shop__inner--info shop-inner-info">
+                  <div class="shop-inner-info__wrapper">
+                    <!-- Верхний текст -->
+                    <div class="shop-inner__text shop-inner-text d-flex">
+                      <div class="shop-inner-text__have tt-u black">
+                        есть в наличии
+                      </div>
+                      <div class="shop-inner-text__article tt-u">
+                        Артикул: dexter-ae
+                      </div>
+                    </div>
+                    <!-- текст -->
+                    <div class="shop-inner__info tt-u black">
+                      <p>
+                        Travel Kit – необходимый аксессуар во время любого
+                        путешествия. В аккуратной кожаной сумке находится все,
+                        что нужно для бритья и ухода за кожей во время рабочей
+                        поездки или отдыха: средство для умывания, увлажняющий
+                        крем, крем для бритья, крем после бритья, шампунь. Набор
+                        также может стать отличным подарком.
+                      </p>
+                    </div>
+                    <!-- Кнопка купить -->
+                    <div class="shop-inner__buy--box d-flex">
+                      <div class="shop-inner-buy__sum d-flex">2 900 ₽</div>
+                      <div class="shop-inner-buy__btn d-flex">
+                        <a href="#" class="btn">купить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- набор -->
+                  <div class="shop__complex">
+                    <div class="shop-complex__title">
+                      <h2 class="tt-u black">В набор входят:</h2>
+                    </div>
+                    <ul class="shop-complex__list">
+                      <li>Средство для умывания (50 мл)</li>
+                      <li>Увлажняющий крем (50 мл)</li>
+                      <li>Крем для бритья (50 мл)</li>
+                      <li>Крем после бритья, шампунь (50 мл)</li>
+                      <li>Удобная кожаная косметичка</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer shop__footer" id="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12">
+              <p class="footer__name">БАРБЕРШОП «БОРОДИНСКИ</p>
+              <p class="footer__adress">
+                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8
+              </p>
+              <div class="footer__find"><a href="#">КАК НАС НАЙТИ?</a></div>
+              <div class="footer__number">ТЕЛЕФОН: +7 (495) 666-02-66</div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-6">
+              <div class="footer__icons--box">
+                <h3 class="footer-icons__title">ДАВАЙТЕ ДРУЖИТЬ!</h3>
+                <!-- Обертка под иконки -->
+                <div class="footer-icons__icons d-flex">
+                  <div class="footer-icons__icon d-flex">
+                    <i class="fab fa-vk"></i>
+                  </div>
+                  <div class="footer-icons__icon d-flex">
+                    <i class="fab fa-facebook-f"></i>
+                  </div>
+                  <div class="footer-icons__icon d-flex">
+                    <i class="fab fa-instagram"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-5 col-md-4 col-sm-6">
+              <div class="footer-box d-flex">
+                <div class="footer-box__content">
+                  <h4 class="footer__makeBy tt-u">РАЗРАБОТАНО:</h4>
+                  <div class="footer__link">
+                    <a href="#" class="tt-u white btn">html academy</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer -->
+    <!-- Скрипты(Scripts) -->
+    <!-- JQuery CDN-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <!-- /JQuery -->
+    <!-- Slick slider Local-->
+    <script src="js/slick.min.js"></script>
+    <!-- /Slick slider -->
+    <!-- Main JS File -->
+    <script src="js/script.js"></script>
+    <!-- /Main JS File -->
+    <!-- /Скрипты(Scripts) -->
+  </body>
+</html>
